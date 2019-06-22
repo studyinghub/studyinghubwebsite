@@ -1,0 +1,42 @@
+.preface {
+	background-color:white;
+	margin: 30px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.prefacetext {
+	text-align: center;
+	font-size: 30px;
+    font-family: "Helvetica Neue, Arial, Helvetica, Verdana, sans-serif";
+    letter-spacing: 2px;
+    padding:20px;
+
+}
+
+.grid-wrapper {
+	  display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    margin-top: 0;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+}
+
+.box > img  {
+    width: 70%;
+}
+
+
+.boxtext {
+	font-family: "Helvetica Neue, Arial, Helvetica, Verdana, sans-serif";
+	letter-spacing: 1px;
+}
+
