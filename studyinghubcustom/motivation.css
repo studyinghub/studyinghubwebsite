@@ -1,0 +1,100 @@
+
+
+.jumbotron{
+    display: flex;
+    background-size: cover;
+    height: 50vh;
+}
+
+.jumbotron-billboard .img {
+    color: #fff;
+     background: #fff url("elon3.jpg")  center no-repeat;                                                                        
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    background-position: center;
+    padding-bottom:150px;
+}
+
+.preface {
+    display: flex;
+    background-color:white;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 15vh;
+}
+
+.prefacetext {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Helvetica Neue, Arial, Helvetica, Verdana, sans-serif";
+    letter-spacing: 2px;
+    padding:20px;
+
+}
+
+.grid-wrapper {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(6, 1fr));
+  
+    grid-gap: 0;
+    margin-top: 0;
+}
+
+.box {
+    background-color: black;
+    padding: 0px;
+    margin:5px;
+    text-align: center;
+
+}
+
+#jk {
+    grid-column: span 2;
+}
+
+#steve {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 3;
+   
+    height: 100%
+    color: black;
+    vertical-align: center;
+}
+
+
+#obama {
+    grid-column: span 2;
+}
+
+#robert {
+    grid-column: span 2;
+}
+#albert {
+       grid-column: span 2;
+}
+
+#kim {
+    padding-top: 0px;
+    height: 50vh
+}
+
+.box > img  {
+    width: 100%;
+}
+
+
+.boxtext {
+    font-family: "Helvetica Neue, Arial, Helvetica, Verdana, sans-serif";
+    letter-spacing: 1px;
+}
+
+
+
+
+
