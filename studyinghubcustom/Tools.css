@@ -31,8 +31,17 @@
     text-align: center;
 }
 
-.box > img  {
+.box:hover {
+	 -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.box >a > img  {
     width: 70%;
+}
+
+img {
+	display: in-line flex;
 }
 
 
